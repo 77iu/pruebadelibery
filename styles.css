@@ -12,9 +12,10 @@ body{
 header{
     width: 100%;
     height: calc(100vh*0.2);
-    background-color: rgba(34, 34, 34, 0.557);
+    background-color: black;
     position: sticky;
     top: 0;
+    z-index: 100;
 }
 
 legend{
@@ -26,9 +27,7 @@ legend{
 }
 fieldset{
   
-   /* background-color: green; */
-    /* border: 10px  white solid; */
-   /* box-sizing: content-box; */
+margin-top: 5px;
    background-color:transparent;
    border: 0px solid transparent;
    filter: drop-shadow(0 0 0.7rem black);
