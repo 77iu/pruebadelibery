@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+body{
+    max-width: 1280px;
+    margin: auto;
+    /* background-color: rgba(76, 75, 133, 0.226); */
+    background-color: white;
+}
+header{
+    width: 100%;
+    height: calc(100vh*0.2);
+    background-color: rgba(34, 34, 34, 0.557);
+    position: sticky;
+    top: 0;
+}
+
+legend{
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: white;
+}
+fieldset{
+  
+   /* background-color: green; */
+    /* border: 10px  white solid; */
+   /* box-sizing: content-box; */
+   background-color:transparent;
+   border: 0px solid transparent;
+   filter: drop-shadow(0 0 0.7rem black);
+
+}
+
+
+
+fieldset div div{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.contenido{
+  height: 0;
+  width: 95%;
+  margin: 0 auto;
+    transform: scaleY(0);
+    overflow: hidden;
+    background-color: white;  
+}
+.contenido:first-of-type{
+    margin-top: 10px;
+}
+
+
+.contenido div{
+   /* background-color: white; */
+   margin: 0 5px;
+    display: flex;
+    align-items: center;
+}
+
+.bloque.activo .contenido{
+    height: unset;
+    padding-bottom: 5px;
+    animation: contenido 500ms linear forwards;
+}
+@keyframes contenido{
+    0%{transform: scaleY(0);}
+    100%{transform: scaleY(100%);}
+}
+.precio{
+    margin-right: 5px;
+}
+p{
+    padding: 0 5px;
+}
+h4{
+    margin: auto;
+    /* border-bottom: 3px double gray; */
+    width: 98%;
+    text-align: center;
+}
+
+
