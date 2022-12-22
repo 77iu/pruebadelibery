@@ -3,6 +3,13 @@
     padding: 0;
    
 }
+html{
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+    color: unset;
+}
 body{
     max-width: 1280px;
     margin: auto;
@@ -13,9 +20,9 @@ header{
     width: 100%;
     height: calc(100vh*0.2);
     background-color: black;
-    position: sticky;
+    /* position: sticky;
     top: 0;
-    z-index: 100;
+    z-index: 100; */
 }
 
 legend{
@@ -30,7 +37,7 @@ fieldset{
 margin-top: 5px;
    background-color:transparent;
    border: 0px solid transparent;
-   filter: drop-shadow(0 0 0.7rem black);
+   filter: drop-shadow(0 0 0.4rem black);
 
 }
 
@@ -42,15 +49,17 @@ fieldset div div{
    
 }
 .contenido{
-  height: 0;
-  width: 95%;
-  margin: 0 auto;
+    height: 0;
+    width: 95%;
+    margin: 0 auto;
     transform: scaleY(0);
     overflow: hidden;
     background-color: white;  
+    
 }
 .contenido:first-of-type{
     margin-top: 10px;
+    padding-top: 10px;
 }
 
 
@@ -78,9 +87,12 @@ p{
 }
 h4{
     margin: auto;
-    /* border-bottom: 3px double gray; */
+    border-bottom: 3px double gray;
     width: 98%;
     text-align: center;
+    padding-bottom: 5px;
 }
-
+.last{
+    border-bottom: none;
+}
 
