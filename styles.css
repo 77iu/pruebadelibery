@@ -24,7 +24,15 @@ header{
     top: 0;
     z-index: 100; */
 }
-
+.flex3{
+    width: 60%;
+    
+}
+.primero h3{
+   
+   color: red;
+    font-size: 15px;
+}
 legend{
     text-align: center;
     border: 1px solid black;
@@ -82,6 +90,20 @@ fieldset div div{
 .precio{
     margin-right: 5px;
 }
+.flex3 .precio{
+    margin-right: unset;
+    margin: auto;
+}
+@media only screen and (max-width: 450px){
+    .flex3 .precio{
+        font-size: 15px;
+    }
+    .primero .precio{
+        font-size: 10px;
+    }
+   
+}
+
 p{
     padding: 0 5px;
 }
