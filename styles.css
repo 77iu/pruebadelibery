@@ -20,10 +20,11 @@ a{
 body{
     max-width: 1280px;
     margin: auto;
+
     background: linear-gradient(45deg,hotpink, rgb(110, 110, 240),rgb(89, 211, 89),yellow);
     background-size: 400% 400%;
    position: relative;
-   animation: cambiar 10s ease infinite;
+   /* animation: cambiar 10s ease infinite; */
 }
 @keyframes cambiar{
     0%{background-position: 0% 100%;}
@@ -86,33 +87,24 @@ header h1{
 	background-color: #25d366;
 	transform: scale(1.25);
 	border-radius: 50%;
-	/* width: 100%;
-	height: 100%; */
+	
 	border: 3px solid transparent;
     margin-left: 2px;
     margin-top: 1px;
 }
 
   .musho{
-	/* margin: 5px 0; */
-	/* height: 30px; */
 	display: inline-flex;
-
 background-color: transparent;
-/* z-index: 0; */
 align-items: center;
 border: 1px solid white;
 justify-content: center;
 border-radius: 25px;
-/* gap: 1px; */
 padding: 1px;
 margin: 5px;
-
-
   }
  footer{
     width: 100%;
-   
     background-color: #222;
     display: flex;
     align-items: center;
@@ -140,9 +132,8 @@ margin: 5px;
     width: 60%;
     
 }
-.primero .precio{
-   
-   color: red;
+h5{
+   color:red;
     font-size: 15px;
 }
 legend{
@@ -162,8 +153,7 @@ fieldset{
 margin-top: 5px;
    background-color:transparent;
    border: 0px solid transparent;
-   filter: drop-shadow(0 0 0.2rem black
-   );
+   filter: drop-shadow(0 0 0.2rem black);
 
 }
 
@@ -172,9 +162,9 @@ fieldset div div{
     justify-content: space-between;
    
 }
-.flex3 .precio{
+/* .flex3 .precio{
     color: black;
-}
+} */
 .contenido{
     height: 0;
     width: 95%;
@@ -193,10 +183,13 @@ fieldset div div{
     display: flex;
     align-items: center;
 }
-.contenido div div h3{
+h2{
     color: blue;
-   
-     
+    font-size: 20px;
+
+}
+ .contenido div h3{
+    color: black;
  }
 .bloque.activo .contenido{
     height: unset;
@@ -218,9 +211,7 @@ fieldset div div{
     .flex3 .precio{
         font-size: 15px;
     }
-    .primero .precio{
-        font-size: 10px;
-    }
+  
    
 }
 
