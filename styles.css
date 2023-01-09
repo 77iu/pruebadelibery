@@ -162,13 +162,11 @@ fieldset{
 margin-top: 5px;
    background-color:transparent;
    border: 0px solid transparent;
-   animation: field 1s linear alternate infinite;
+   filter: drop-shadow(0 0 0.2rem black
+   );
 
 }
-@keyframes field{
-    0%{filter: drop-shadow(0 0 0.6rem yellow);}
-    100%{filter: drop-shadow(0 0 0.2rem greenyellow);}
-}
+
 fieldset div div{
     display: flex;
     justify-content: space-between;
